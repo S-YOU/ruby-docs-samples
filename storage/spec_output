@@ -1,0 +1,1768 @@
+Randomized with seed 25497
+
+Google Cloud Storage buckets sample
+  list buckets (FAILED - 1)
+  list details (FAILED - 2)
+  disable requester pays (FAILED - 3)
+  enable requester pays (FAILED - 4)
+  check requester pays (FAILED - 5)
+  disable uniform bucket level access (FAILED - 6)
+  enable uniform bucket level access (FAILED - 7)
+  get uniform bucket-level access (FAILED - 8)
+  enable default kms key (FAILED - 9)
+  set and get a retention policy (FAILED - 10)
+  remove retention policy (FAILED - 11)
+  enable default event-based hold (FAILED - 12)
+  disable default event-based hold (FAILED - 13)
+  lock retention policy (FAILED - 14)
+  create bucket (FAILED - 15)
+  create bucket with specified class and location (FAILED - 16)
+  list bucket labels (FAILED - 17)
+  add bucket label (FAILED - 18)
+  delete bucket label (FAILED - 19)
+  delete bucket (FAILED - 20)
+
+Storage HMAC SA sample
+  list hmac keys
+  deactivate hmac key
+  delete hmac key
+  create hmac key
+  get hmac key
+  activate hmac key
+
+Storage Quickstart
+  creates a new bucket
+
+Google Cloud Storage ACL sample
+  can print bucket acl for user
+  can print file acl for user
+  can add bucket owner
+  can add bucket default owner
+  can print file acl
+  can remove bucket default acl
+  can remove file acl
+  can remove bucket acl
+  can print bucket acl
+  can add file owner
+
+Google Cloud Storage IAM sample
+  can remove an IAM member
+  can add an IAM member
+  can view bucket IAM members
+
+Google Cloud Storage files sample
+  can download a public readable file from a bucket (FAILED - 21)
+    
+1st Try error in ./spec/files_spec.rb:263:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:263
+    
+2nd Try error in ./spec/files_spec.rb:263:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:263
+    
+3rd Try error in ./spec/files_spec.rb:263:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:263
+    
+4th Try error in ./spec/files_spec.rb:263:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:263
+  can't download an encrypted file from a bucket with wrong key (FAILED - 22)
+    
+1st Try error in ./spec/files_spec.rb:420:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:420
+    
+2nd Try error in ./spec/files_spec.rb:420:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:420
+    
+3rd Try error in ./spec/files_spec.rb:420:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:420
+    
+4th Try error in ./spec/files_spec.rb:420:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:420
+  can copy a file (FAILED - 23)
+    
+1st Try error in ./spec/files_spec.rb:305:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:305
+    
+2nd Try error in ./spec/files_spec.rb:305:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:305
+    
+3rd Try error in ./spec/files_spec.rb:305:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:305
+    
+4th Try error in ./spec/files_spec.rb:305:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:305
+  can upload a local file to a bucket with encryption key (FAILED - 24)
+    
+1st Try error in ./spec/files_spec.rb:169:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:169
+    
+2nd Try error in ./spec/files_spec.rb:169:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:169
+    
+3rd Try error in ./spec/files_spec.rb:169:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:169
+    
+4th Try error in ./spec/files_spec.rb:169:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:169
+  can list files in a bucket (FAILED - 25)
+    
+1st Try error in ./spec/files_spec.rb:122:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:122
+    
+2nd Try error in ./spec/files_spec.rb:122:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:122
+    
+3rd Try error in ./spec/files_spec.rb:122:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:122
+    
+4th Try error in ./spec/files_spec.rb:122:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:122
+  can upload a local file to a bucket (FAILED - 26)
+    
+1st Try error in ./spec/files_spec.rb:152:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:152
+    
+2nd Try error in ./spec/files_spec.rb:152:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:152
+    
+3rd Try error in ./spec/files_spec.rb:152:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:152
+    
+4th Try error in ./spec/files_spec.rb:152:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:152
+  can rename a file in a bucket (FAILED - 27)
+    
+1st Try error in ./spec/files_spec.rb:289:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:289
+    
+2nd Try error in ./spec/files_spec.rb:289:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:289
+    
+3rd Try error in ./spec/files_spec.rb:289:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:289
+    
+4th Try error in ./spec/files_spec.rb:289:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:289
+  can list files with a prefix in a bucket (FAILED - 28)
+    
+1st Try error in ./spec/files_spec.rb:134:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:134
+    
+2nd Try error in ./spec/files_spec.rb:134:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:134
+    
+3rd Try error in ./spec/files_spec.rb:134:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:134
+    
+4th Try error in ./spec/files_spec.rb:134:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:134
+  can generate a v4 get signed url for a file (FAILED - 29)
+    
+1st Try error in ./spec/files_spec.rb:488:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:488
+    
+2nd Try error in ./spec/files_spec.rb:488:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:488
+    
+3rd Try error in ./spec/files_spec.rb:488:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:488
+    
+4th Try error in ./spec/files_spec.rb:488:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:488
+  can download an encrypted file from a bucket (FAILED - 30)
+    
+1st Try error in ./spec/files_spec.rb:392:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:392
+    
+2nd Try error in ./spec/files_spec.rb:392:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:392
+    
+3rd Try error in ./spec/files_spec.rb:392:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:392
+    
+4th Try error in ./spec/files_spec.rb:392:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:392
+  rotate encryption key for an encrypted file (FAILED - 31)
+    
+1st Try error in ./spec/files_spec.rb:445:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:445
+    
+2nd Try error in ./spec/files_spec.rb:445:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:445
+    
+3rd Try error in ./spec/files_spec.rb:445:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:445
+    
+4th Try error in ./spec/files_spec.rb:445:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:445
+  can't download a file from a bucket using requester pays without flag (FAILED - 32)
+    
+1st Try error in ./spec/files_spec.rb:361:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:361
+    
+2nd Try error in ./spec/files_spec.rb:361:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:361
+    
+3rd Try error in ./spec/files_spec.rb:361:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:361
+    
+4th Try error in ./spec/files_spec.rb:361:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:361
+  can set custom metadata for a file (FAILED - 33)
+    
+1st Try error in ./spec/files_spec.rb:207:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:207
+    
+2nd Try error in ./spec/files_spec.rb:207:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:207
+    
+3rd Try error in ./spec/files_spec.rb:207:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:207
+    
+4th Try error in ./spec/files_spec.rb:207:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:207
+  can generate a v4 put signed url for a file (FAILED - 34)
+    
+1st Try error in ./spec/files_spec.rb:507:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:507
+    
+2nd Try error in ./spec/files_spec.rb:507:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:507
+    
+3rd Try error in ./spec/files_spec.rb:507:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:507
+    
+4th Try error in ./spec/files_spec.rb:507:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:507
+  can release an temporary hold (FAILED - 35)
+    
+1st Try error in ./spec/files_spec.rb:597:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:597
+    
+2nd Try error in ./spec/files_spec.rb:597:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:597
+    
+3rd Try error in ./spec/files_spec.rb:597:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:597
+    
+4th Try error in ./spec/files_spec.rb:597:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:597
+  can upload a local file to a bucket with kms key (FAILED - 36)
+    
+1st Try error in ./spec/files_spec.rb:188:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:188
+    
+2nd Try error in ./spec/files_spec.rb:188:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:188
+    
+3rd Try error in ./spec/files_spec.rb:188:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:188
+    
+4th Try error in ./spec/files_spec.rb:188:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:188
+  can release an event-based hold (FAILED - 37)
+    
+1st Try error in ./spec/files_spec.rb:555:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:555
+    
+2nd Try error in ./spec/files_spec.rb:555:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:555
+    
+3rd Try error in ./spec/files_spec.rb:555:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:555
+    
+4th Try error in ./spec/files_spec.rb:555:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:555
+  can download a file from a bucket (FAILED - 38)
+    
+1st Try error in ./spec/files_spec.rb:234:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:234
+    
+2nd Try error in ./spec/files_spec.rb:234:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:234
+    
+3rd Try error in ./spec/files_spec.rb:234:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:234
+    
+4th Try error in ./spec/files_spec.rb:234:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:234
+  can set an event-based hold (FAILED - 39)
+    
+1st Try error in ./spec/files_spec.rb:534:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:534
+    
+2nd Try error in ./spec/files_spec.rb:534:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:534
+    
+3rd Try error in ./spec/files_spec.rb:534:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:534
+    
+4th Try error in ./spec/files_spec.rb:534:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:534
+  can download a file from a bucket using requester pays (FAILED - 40)
+    
+1st Try error in ./spec/files_spec.rb:325:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:325
+    
+2nd Try error in ./spec/files_spec.rb:325:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:325
+    
+3rd Try error in ./spec/files_spec.rb:325:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:325
+    
+4th Try error in ./spec/files_spec.rb:325:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:325
+  can generate a base64 encoded encryption key (FAILED - 41)
+    
+1st Try error in ./spec/files_spec.rb:105:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:105
+    
+2nd Try error in ./spec/files_spec.rb:105:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:105
+    
+3rd Try error in ./spec/files_spec.rb:105:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:105
+    
+4th Try error in ./spec/files_spec.rb:105:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:105
+  can generate a signed url for a file (FAILED - 42)
+    
+1st Try error in ./spec/files_spec.rb:467:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:467
+    
+2nd Try error in ./spec/files_spec.rb:467:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:467
+    
+3rd Try error in ./spec/files_spec.rb:467:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:467
+    
+4th Try error in ./spec/files_spec.rb:467:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:467
+  can set a temporary hold (FAILED - 43)
+    
+1st Try error in ./spec/files_spec.rb:576:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    
+RSpec::Retry: 2nd try ./spec/files_spec.rb:576
+    
+2nd Try error in ./spec/files_spec.rb:576:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 3rd try ./spec/files_spec.rb:576
+    
+3rd Try error in ./spec/files_spec.rb:576:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 4th try ./spec/files_spec.rb:576
+    
+4th Try error in ./spec/files_spec.rb:576:
+badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+undefined method `policy' for nil:NilClass
+    RSpec::Retry: 5th try ./spec/files_spec.rb:576
+
+Failures:
+
+  1) Google Cloud Storage buckets sample list buckets
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  2) Google Cloud Storage buckets sample list details
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  3) Google Cloud Storage buckets sample disable requester pays
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  4) Google Cloud Storage buckets sample enable requester pays
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  5) Google Cloud Storage buckets sample check requester pays
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  6) Google Cloud Storage buckets sample disable uniform bucket level access
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  7) Google Cloud Storage buckets sample enable uniform bucket level access
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  8) Google Cloud Storage buckets sample get uniform bucket-level access
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  9) Google Cloud Storage buckets sample enable default kms key
+     Failure/Error:
+       kms_client.create_project_location_key_ring_crypto_key(
+         key_ring_resource,
+         Google::Apis::CloudkmsV1::CryptoKey.new(
+           purpose: "ENCRYPT_DECRYPT"
+         ),
+         crypto_key_id: key_name
+       )
+     
+     Google::Apis::ClientError:
+       badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+     # ./spec/spec_helpers.rb:24:in `create_kms_key'
+     # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+     # ------------------
+     # --- Caused by: ---
+     # Google::Apis::ClientError:
+     #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+     #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  10) Google Cloud Storage buckets sample set and get a retention policy
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  11) Google Cloud Storage buckets sample remove retention policy
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  12) Google Cloud Storage buckets sample enable default event-based hold
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  13) Google Cloud Storage buckets sample disable default event-based hold
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  14) Google Cloud Storage buckets sample lock retention policy
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  15) Google Cloud Storage buckets sample create bucket
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  16) Google Cloud Storage buckets sample create bucket with specified class and location
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  17) Google Cloud Storage buckets sample list bucket labels
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  18) Google Cloud Storage buckets sample add bucket label
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  19) Google Cloud Storage buckets sample delete bucket label
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  20) Google Cloud Storage buckets sample delete bucket
+      Failure/Error:
+        kms_client.create_project_location_key_ring_crypto_key(
+          key_ring_resource,
+          Google::Apis::CloudkmsV1::CryptoKey.new(
+            purpose: "ENCRYPT_DECRYPT"
+          ),
+          crypto_key_id: key_name
+        )
+      
+      Google::Apis::ClientError:
+        badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+      # ./spec/spec_helpers.rb:24:in `create_kms_key'
+      # ./spec/buckets_spec.rb:37:in `block (2 levels) in <top (required)>'
+      # ------------------
+      # --- Caused by: ---
+      # Google::Apis::ClientError:
+      #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+      #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+  21) Google Cloud Storage files sample can download a public readable file from a bucket
+      Got 0 failures and 2 other errors:
+
+      21.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      21.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  22) Google Cloud Storage files sample can't download an encrypted file from a bucket with wrong key
+      Got 0 failures and 2 other errors:
+
+      22.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      22.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  23) Google Cloud Storage files sample can copy a file
+      Got 0 failures and 2 other errors:
+
+      23.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      23.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  24) Google Cloud Storage files sample can upload a local file to a bucket with encryption key
+      Got 0 failures and 2 other errors:
+
+      24.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      24.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  25) Google Cloud Storage files sample can list files in a bucket
+      Got 0 failures and 2 other errors:
+
+      25.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      25.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  26) Google Cloud Storage files sample can upload a local file to a bucket
+      Got 0 failures and 2 other errors:
+
+      26.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      26.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  27) Google Cloud Storage files sample can rename a file in a bucket
+      Got 0 failures and 2 other errors:
+
+      27.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      27.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  28) Google Cloud Storage files sample can list files with a prefix in a bucket
+      Got 0 failures and 2 other errors:
+
+      28.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      28.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  29) Google Cloud Storage files sample can generate a v4 get signed url for a file
+      Got 0 failures and 2 other errors:
+
+      29.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      29.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  30) Google Cloud Storage files sample can download an encrypted file from a bucket
+      Got 0 failures and 2 other errors:
+
+      30.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      30.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  31) Google Cloud Storage files sample rotate encryption key for an encrypted file
+      Got 0 failures and 2 other errors:
+
+      31.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      31.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  32) Google Cloud Storage files sample can't download a file from a bucket using requester pays without flag
+      Got 0 failures and 2 other errors:
+
+      32.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      32.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  33) Google Cloud Storage files sample can set custom metadata for a file
+      Got 0 failures and 2 other errors:
+
+      33.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      33.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  34) Google Cloud Storage files sample can generate a v4 put signed url for a file
+      Got 0 failures and 2 other errors:
+
+      34.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      34.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  35) Google Cloud Storage files sample can release an temporary hold
+      Got 0 failures and 2 other errors:
+
+      35.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      35.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  36) Google Cloud Storage files sample can upload a local file to a bucket with kms key
+      Got 0 failures and 2 other errors:
+
+      36.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      36.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  37) Google Cloud Storage files sample can release an event-based hold
+      Got 0 failures and 2 other errors:
+
+      37.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      37.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  38) Google Cloud Storage files sample can download a file from a bucket
+      Got 0 failures and 2 other errors:
+
+      38.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      38.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  39) Google Cloud Storage files sample can set an event-based hold
+      Got 0 failures and 2 other errors:
+
+      39.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      39.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  40) Google Cloud Storage files sample can download a file from a bucket using requester pays
+      Got 0 failures and 2 other errors:
+
+      40.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      40.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  41) Google Cloud Storage files sample can generate a base64 encoded encryption key
+      Got 0 failures and 2 other errors:
+
+      41.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      41.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  42) Google Cloud Storage files sample can generate a signed url for a file
+      Got 0 failures and 2 other errors:
+
+      42.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      42.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+  43) Google Cloud Storage files sample can set a temporary hold
+      Got 0 failures and 2 other errors:
+
+      43.1) Failure/Error:
+              kms_client.create_project_location_key_ring_crypto_key(
+                key_ring_resource,
+                Google::Apis::CloudkmsV1::CryptoKey.new(
+                  purpose: "ENCRYPT_DECRYPT"
+                ),
+                crypto_key_id: key_name
+              )
+            
+            Google::Apis::ClientError:
+              badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            # ./spec/spec_helpers.rb:28:in `block in create_kms_key'
+            # ./spec/spec_helpers.rb:24:in `create_kms_key'
+            # ./spec/files_spec.rb:40:in `block (2 levels) in <top (required)>'
+            # ------------------
+            # --- Caused by: ---
+            # Google::Apis::ClientError:
+            #   badRequest: Resource name 'projects/grahampaye-experiments/locations/us/keyRings/' does not match pattern 'projects/([^/]+)/locations/([a-zA-Z0-9_-]{1,63})/keyRings/([a-zA-Z0-9_-]{1,63})'.
+            #   ./spec/spec_helpers.rb:24:in `create_kms_key'
+
+      43.2) Failure/Error:
+              @bucket.policy do |policy|
+                policy.remove "roles/storage.objectViewer", "allUsers"
+              end
+            
+            NoMethodError:
+              undefined method `policy' for nil:NilClass
+            # ./spec/files_spec.rb:58:in `block (2 levels) in <top (required)>'
+
+Finished in 16 minutes 55 seconds (files took 0.32471 seconds to load)
+63 examples, 43 failures
+
+Failed examples:
+
+rspec ./spec/buckets_spec.rb:64 # Google Cloud Storage buckets sample list buckets
+rspec ./spec/buckets_spec.rb:72 # Google Cloud Storage buckets sample list details
+rspec ./spec/buckets_spec.rb:80 # Google Cloud Storage buckets sample disable requester pays
+rspec ./spec/buckets_spec.rb:95 # Google Cloud Storage buckets sample enable requester pays
+rspec ./spec/buckets_spec.rb:110 # Google Cloud Storage buckets sample check requester pays
+rspec ./spec/buckets_spec.rb:123 # Google Cloud Storage buckets sample disable uniform bucket level access
+rspec ./spec/buckets_spec.rb:138 # Google Cloud Storage buckets sample enable uniform bucket level access
+rspec ./spec/buckets_spec.rb:154 # Google Cloud Storage buckets sample get uniform bucket-level access
+rspec ./spec/buckets_spec.rb:168 # Google Cloud Storage buckets sample enable default kms key
+rspec ./spec/buckets_spec.rb:187 # Google Cloud Storage buckets sample set and get a retention policy
+rspec ./spec/buckets_spec.rb:216 # Google Cloud Storage buckets sample remove retention policy
+rspec ./spec/buckets_spec.rb:232 # Google Cloud Storage buckets sample enable default event-based hold
+rspec ./spec/buckets_spec.rb:252 # Google Cloud Storage buckets sample disable default event-based hold
+rspec ./spec/buckets_spec.rb:268 # Google Cloud Storage buckets sample lock retention policy
+rspec ./spec/buckets_spec.rb:286 # Google Cloud Storage buckets sample create bucket
+rspec ./spec/buckets_spec.rb:301 # Google Cloud Storage buckets sample create bucket with specified class and location
+rspec ./spec/buckets_spec.rb:324 # Google Cloud Storage buckets sample list bucket labels
+rspec ./spec/buckets_spec.rb:343 # Google Cloud Storage buckets sample add bucket label
+rspec ./spec/buckets_spec.rb:368 # Google Cloud Storage buckets sample delete bucket label
+rspec ./spec/buckets_spec.rb:392 # Google Cloud Storage buckets sample delete bucket
+rspec ./spec/files_spec.rb:263 # Google Cloud Storage files sample can download a public readable file from a bucket
+rspec ./spec/files_spec.rb:420 # Google Cloud Storage files sample can't download an encrypted file from a bucket with wrong key
+rspec ./spec/files_spec.rb:305 # Google Cloud Storage files sample can copy a file
+rspec ./spec/files_spec.rb:169 # Google Cloud Storage files sample can upload a local file to a bucket with encryption key
+rspec ./spec/files_spec.rb:122 # Google Cloud Storage files sample can list files in a bucket
+rspec ./spec/files_spec.rb:152 # Google Cloud Storage files sample can upload a local file to a bucket
+rspec ./spec/files_spec.rb:289 # Google Cloud Storage files sample can rename a file in a bucket
+rspec ./spec/files_spec.rb:134 # Google Cloud Storage files sample can list files with a prefix in a bucket
+rspec ./spec/files_spec.rb:488 # Google Cloud Storage files sample can generate a v4 get signed url for a file
+rspec ./spec/files_spec.rb:392 # Google Cloud Storage files sample can download an encrypted file from a bucket
+rspec ./spec/files_spec.rb:445 # Google Cloud Storage files sample rotate encryption key for an encrypted file
+rspec ./spec/files_spec.rb:361 # Google Cloud Storage files sample can't download a file from a bucket using requester pays without flag
+rspec ./spec/files_spec.rb:207 # Google Cloud Storage files sample can set custom metadata for a file
+rspec ./spec/files_spec.rb:507 # Google Cloud Storage files sample can generate a v4 put signed url for a file
+rspec ./spec/files_spec.rb:597 # Google Cloud Storage files sample can release an temporary hold
+rspec ./spec/files_spec.rb:188 # Google Cloud Storage files sample can upload a local file to a bucket with kms key
+rspec ./spec/files_spec.rb:555 # Google Cloud Storage files sample can release an event-based hold
+rspec ./spec/files_spec.rb:234 # Google Cloud Storage files sample can download a file from a bucket
+rspec ./spec/files_spec.rb:534 # Google Cloud Storage files sample can set an event-based hold
+rspec ./spec/files_spec.rb:325 # Google Cloud Storage files sample can download a file from a bucket using requester pays
+rspec ./spec/files_spec.rb:105 # Google Cloud Storage files sample can generate a base64 encoded encryption key
+rspec ./spec/files_spec.rb:467 # Google Cloud Storage files sample can generate a signed url for a file
+rspec ./spec/files_spec.rb:576 # Google Cloud Storage files sample can set a temporary hold
+
+Randomized with seed 25497
